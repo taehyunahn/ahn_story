@@ -11,7 +11,11 @@
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+          <!-- Template Main CSS File -->
+        <link href="assets/css/style.css" rel="stylesheet">
+
     </head>
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
@@ -24,8 +28,8 @@
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav-link" href="index.html">홈</a></li>
                             <li class="nav-item"><a class="nav-link" href="#about">소개</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#contact">연락</a></li>
-                            <li class="nav-item"><a class="nav-link" href="pricing.html">비용</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="#contact">연락</a></li> -->
+                            <li class="nav-item"><a class="nav-link" href="#pricing">비용</a></li>
                             <li class="nav-item"><a class="nav-link" target="_blank" href="https://blog.naver.com/ahns_story">블로그</a></li>
                         </ul>
                     </div>
@@ -38,10 +42,10 @@
                     <div class="row gx-5 align-items-center justify-content-center">
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
                             <div class="my-5 text-center text-xl-start">
-                                <h1 class="display-5 fw-bolder text-white mb-2">안스토리입니다.</h1>
-                                <p class="lead fw-normal text-white-50 mb-4">영어와 해외생활에 관심이 많은 웹 개발자입니다.</P>
-                                <p class="lead fw-normal text-white-50 mb-4">개발자가 되기 전에는 코이카(KOICA, Korea International Cooperation Agency)에서 인턴(몽골 1년)으로 봉사단 코디네이터(우간다 2년)로 근무했습니다. IT 전공자는 아니지만, 코딩 전문 교육기관에서 1년 3개월의 혹독한 트레이닝을 거쳐 현재는 인사관리(HR) 서비스를 제공하는 IT기업에서 개발자로 일하고 있습니다.</p>
-                                <p class="lead fw-normal text-white-50 mb-4">영어공부, 독서, 해외생활, 육아 등의 주제로 저희 경험과 지식을 블로그에 정리하는 것을 좋아합니다.</p>
+                                <h1 class="display-5 fw-bolder text-white mb-4">안스토리입니다.</h1>
+                                <p class="lead fw-normal text-start text-white-50 mb-4">영어공부와 자기계발에 관심이 많은 블로거입니다. 4세 아이를 키우고 있는 30대 아빠이고, 현재 직업은 웹 개발자입니다.</P>
+                                <p class="lead fw-normal text-start text-white-50 mb-4">개발자가 되기 전에는 코이카(KOICA, Korea International Cooperation Agency)에서 인턴(몽골 1년)으로 봉사단 코디네이터(우간다 2년)로 근무했습니다. IT 전공자는 아니지만, 코딩 전문 교육기관에서 1년 3개월의 혹독한 트레이닝을 거쳐 현재는 인사관리(HR) 서비스를 제공하는 IT기업에서 웹개발자로 일하고 있습니다.</p>
+                                <p class="lead fw-normal text-start text-white-50 mb-4">영어공부, 독서, 해외생활, 육아 등의 주제로 저희 경험과 지식을 블로그에 정리하는 것을 좋아합니다. 매일 새벽 4시 50분 첫 차를 타고, 출근해서 꾸준히 공부하고 있습니다.</p>
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
                                     <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#service">프로그램</a>
                                     <a class="btn btn-outline-light btn-lg px-4" href="#about">소개</a>
@@ -53,32 +57,34 @@
                 </div>
             </header>
 
+            
+
             <!-- Service section-->
             <section class="py-5" id="service">
                 <div class="container px-5 my-5">
                     <div class="row gx-5">
-                        <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">자신에게 맞는 영어 공부 습관을 찾아드리고, 같이 만들어드립니다.</h2></div>
+                        <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">영어 공부의 계획과 실천의 간극을 메우는 코치가 되어드리겠습니다.</h2></div>
                         <div class="col-lg-8">
                             <div class="row gx-5 row-cols-1 row-cols-md-2">
                                 <div class="col mb-5 h-100">
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
-                                    <h2 class="h5">1:1 맞춤 컨설팅</h2>
-                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                                    <h2 class="h5">1. 계획 리스트 정리</h2>
+                                    <p class="mb-0">1:1 화상 미팅을 통해 자신 수준과 상황에 맞는 효율적인 영어 공부 계획을 수립합니다. 구체적으로 실행에 옮길 행동 리스트를 정리합니다.</p>
                                 </div>
                                 <div class="col mb-5 h-100">
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
-                                    <h2 class="h5">영어공부 단톡방 운영</h2>
-                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                                    <h2 class="h5">2. 실행과 하루질문</h2>
+                                    <p class="mb-0">카톡으로 진행상황을 점검하여 실행력을 높여드립니다. 매일 피드백을 통해 원래 생각했던 진정한 의도를 상기시켜드립니다.</p>
                                 </div>
                                 <div class="col mb-5 mb-md-0 h-100">
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
-                                    <h2 class="h5">ZOOM 하브루타</h2>
-                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                                    <h2 class="h5">3. 체계 구축</h2>
+                                    <p class="mb-0">정확하게 반복할수록 더 능숙하게 할 수 있습니다. 일단 하나의 행동을 바꾸는 법을 배운 후에는 또 다른 행동에 대해서도 같은 효 과를 얻을 수 있습니다.</p>
                                 </div>
-                                <div class="col h-100">
+                                <div class="col mb-5 mb-md-0 h-100">
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
-                                    <h2 class="h5">성과측정/피드백</h2>
-                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                                    <h2 class="h5">4. 지속가능한 변화</h2>
+                                    <p class="mb-0">결국 우리는 자기 자신의 코치가 됩니다. 코치가 여러 번 환기시켜준 이후엔 본인 스스로 배우고 적용할 수 있습니다.</p>
                                 </div>
                             </div>
                         </div>
@@ -107,115 +113,152 @@
             </div> -->
 
                 <!-- About-->
-                <section class="py-5" id="about">
+                <section class="py-5 bg-light">
                 <div class="container px-5">
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-xxl-6">
                             <div class="text-center my-5">
-                                <h1 class="fw-bolder mb-3">Our mission is to make building websites easier for everyone.</h1>
-                                <p class="lead fw-normal text-muted mb-4">Start Bootstrap was built on the idea that quality, functional website templates and themes should be available to everyone. Use our open source, free products, or support us by purchasing one of our premium products or services.</p>
-                                <a class="btn btn-primary btn-lg" href="#scroll-target">Read our story</a>
+                                <h1 class="fw-bolder mb-3">우리는 체계 없이 더 나아질 수 없다.</h1>
+                                <p class="lead fw-normal text-muted mb-4">우리의 일상에 체계를 세우는 것은 제멋대로인 환경을 통제할 수 있는 효과적인 방법입니다. 연료통 속의 휘발유처럼, 우리의 자기통제력도 유한하며 계속 쓰면 줄어듭니다. 점점 더 절제력을 잃게 되고 실행을 포기하게 됩니다. 삶에서 예측가능한 부분을 관리하기 위해 체계를 구축해야 합니다. </p>
+                                <p class="lead fw-normal text-muted mb-4">20대에는 영어 공부에 전념하여 영어를 사용하며 해외 파견근무를 할 수 있었고, 30대에는 코딩 공부에 전념하여 현재는 개발자로 일하고 있습니다. 공부와 자기계발은 저의 일상입니다. 늘 배우고 성장하며 더 나은 내일을 만들기 위한 즐겁고 의미있는 행동을 쌓아가고 있습니다. 당신의 성장을 위한 행동 체계를 같이 만들어 드리겠습니다.</p>
+                                <a class="btn btn-primary btn-lg" href="#about">소개</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-                <!-- About section one-->
-                <section class="py-5 bg-light" id="scroll-target">
+            <!-- About section one-->
+            <section class="py-5" id="about">
                 <div class="container px-5 my-5">
                     <div class="row gx-5 align-items-center">
-                        <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." /></div>
+                        <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="assets/img/student.png" alt="..." /></div>
                         <div class="col-lg-6">
-                            <h2 class="fw-bolder">Our founding</h2>
-                            <p class="lead fw-normal text-muted mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam beatae expedita. Blanditiis impedit numquam libero molestiae et fugit cupiditate, quibusdam expedita, maiores eaque quisquam.</p>
+                            <h2 class="fw-bolder mb-3">어학연수/교환학생</h2>
+                            <p class="lead fw-normal text-muted mb-10">국제학부에 입학하면서 영어 공부를 본격적으로 시작했습니다. 그러나 영어실력이 폭발적으로 향상된 시점은 필리핀 어학연수(4개월) 기간입니다. 하루 종일 영어를 공부하고, 토론하고, 반복하며 영어라는 언어가 저의 언어로 자리잡기 시작했습니다.</p>
+                            <p class="lead fw-normal text-muted mb-0">몽골 국제대학교에 교환학생(1년)으로 생활하며 영어로 국제경영학 전공 공부를 하며 영어 실력을 심화시키고 실제 활용 가능한 영어로 레벨업을 하는 계기가 되었습니다.</p>
                         </div>
                     </div>
                 </div>
             </section>
             <!-- About section two-->
+            <section class="py-5  bg-light">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="assets/img/oversea.png" alt="..." /></div>
+                        <div class="col-lg-6">
+                            <h2 class="fw-bolder mb-3">해외파견근무</h2>
+                            <p class="lead fw-normal text-muted mb-10">대학 졸업 후 코이카(KOICA, Korea International Cooperation Agency)에서 인턴으로 일하며 해외근무를 시작했습니다. 한국에 돌아와서는 무역회사에서 건설장비 및 부품을 수입하는 일을 했습니다. 해외 거래처와 영어를 계속 사용했고, 중국, 유럽 등으로 출장이 잦았습니다.</p>
+                            <p class="lead fw-normal text-muted mb-0">30대가 되기 전 아프리카에서 근무하고 싶다는 생각에 퇴사 후 다시 코이카 봉사단 코디네이터로 우간다에서 2년 동안 근무했습니다. 1~2년 간 파견되는 봉사단원들의 현지적응과 복무를 지원하는 업무를 했습니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- About section three-->
             <section class="py-5">
                 <div class="container px-5 my-5">
                     <div class="row gx-5 align-items-center">
-                        <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." /></div>
+                        <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="assets/img/coding.png" alt="..." /></div>
                         <div class="col-lg-6">
-                            <h2 class="fw-bolder">Growth &amp; beyond</h2>
-                            <p class="lead fw-normal text-muted mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam beatae expedita. Blanditiis impedit numquam libero molestiae et fugit cupiditate, quibusdam expedita, maiores eaque quisquam.</p>
+                            <h2 class="fw-bolder mb-3">개발자로 커리어 전환</h2>
+                            <p class="lead fw-normal text-muted mb-10">아프리카에서도 IT기술을 활용한 서비스와 비즈니스가 활발하다는 것을 보고, 전세계 어느 곳에서나 통용되는 전문성을 가진 IT개발자가 되고 싶다는 마음이 강렬해졌습니다.</p>
+                            <p class="lead fw-normal text-muted mb-0"> 퇴사 후 육아를 병행하며, 코딩전문 교육기관에서 1년 3개월의 혹독한 트레이닝을 받았습니다. 현재는 인사관리 클라우드 서비스를 제공하는 IT 회사에서 웹 개발자로 근무하고 있습니다. </p>
                         </div>
                     </div>
                 </div>
             </section>
 
 
-            <section class="py-5" id="contact">
-                <div class="container px-5">
-                    <!-- Contact form-->
-                    <div class="bg-light rounded-3 py-5 px-4 px-md-5 mb-5">
-                        <div class="text-center mb-5">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
-                            <h1 class="fw-bolder">Get in touch</h1>
-                            <p class="lead fw-normal text-muted mb-0">We'd love to hear from you</p>
-                        </div>
-                        <div class="row gx-5 justify-content-center">
-                            <div class="col-lg-8 col-xl-6">
-                                <!-- * * * * * * * * * * * * * * *-->
-                                <!-- * * SB Forms Contact Form * *-->
-                                <!-- * * * * * * * * * * * * * * *-->
-                                <!-- This form is pre-integrated with SB Forms.-->
-                                <!-- To make this form functional, sign up at-->
-                                <!-- https://startbootstrap.com/solution/contact-forms-->
-                                <!-- to get an API token!-->
-                                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                                    <!-- Name input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                        <label for="name">Full name</label>
-                                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                                    </div>
-                                    <!-- Email address input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                        <label for="email">Email address</label>
-                                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                                    </div>
-                                    <!-- Phone number input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                        <label for="phone">Phone number</label>
-                                        <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                                    </div>
-                                    <!-- Message input-->
-                                    <div class="form-floating mb-3">
-                                        <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                        <label for="message">Message</label>
-                                        <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                                    </div>
-                                    <!-- Submit success message-->
-                                    <!---->
-                                    <!-- This is what your users will see when the form-->
-                                    <!-- has successfully submitted-->
-                                    <div class="d-none" id="submitSuccessMessage">
-                                        <div class="text-center mb-3">
-                                            <div class="fw-bolder">Form submission successful!</div>
-                                            To activate this form, sign up at
-                                            <br />
-                                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                       <!-- Pricing section-->
+                       <section class="bg-light py-5" id="pricing">
+                        <div class="container px-5 my-5">
+                            <div class="text-center mb-5">
+                                <h1 class="fw-bolder">금액</h1>
+                                <p class="lead fw-normal text-muted mb-0">With our no hassle pricing plans</p>
+                            </div>
+                            <div class="row gx-5 justify-content-center">
+                                <!-- Pricing card free-->
+                                <div class="col-lg-6 col-xl-4">
+                                    <div class="card mb-5 mb-xl-0">
+                                        <div class="card-body p-5">
+                                            <div class="small text-uppercase fw-bold text-muted">ㅇㅇ</div>
+                                            <div class="mb-3">
+                                                <span class="display-4 fw-bold">미정</span>
+                                                <span class="text-muted">/ min.</span>
+                                            </div>
+                                            <ul class="list-unstyled mb-4">
+                                                <li class="mb-2">
+                                                    <i class="bi bi-check text-primary"></i>
+                                                    <strong>1 users</strong>
+                                                </li>
+                                                <li class="mb-2">
+                                                    <i class="bi bi-check text-primary"></i>
+                                                    5GB storage
+                                                </li>
+                                                <li class="mb-2">
+                                                    <i class="bi bi-check text-primary"></i>
+                                                    Unlimited public projects
+                                                </li>
+                                            </ul>
+                                            <div class="d-grid"><a class="btn btn-outline-primary" href="#!">Choose plan</a></div>
                                         </div>
                                     </div>
-                                    <!-- Submit error message-->
-                                    <!---->
-                                    <!-- This is what your users will see when there is-->
-                                    <!-- an error submitting the form-->
-                                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                                    <!-- Submit Button-->
-                                    <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
-                                </form>
+                                </div>
+                                <!-- Pricing card pro-->
+                                <div class="col-lg-6 col-xl-4">
+                                    <div class="card mb-5 mb-xl-0">
+                                        <div class="card-body p-5">
+                                            <div class="small text-uppercase fw-bold">
+                                                <i class="bi bi-star-fill text-warning"></i>
+                                                Pro
+                                            </div>
+                                            <div class="mb-3">
+                                                <span class="display-4 fw-bold">$미정</span>
+                                                <span class="text-muted">/ mo.</span>
+                                            </div>
+                                            <ul class="list-unstyled mb-4">
+                                                <li class="mb-2">
+                                                    <i class="bi bi-check text-primary"></i>
+                                                    <strong>5 users</strong>
+                                                </li>
+                                                <li class="mb-2">
+                                                    <i class="bi bi-check text-primary"></i>
+                                                    5GB storage
+                                                </li>
+                                                <li class="mb-2">
+                                                    <i class="bi bi-check text-primary"></i>
+                                                    Unlimited public projects
+                                                </li>
+                                                <li class="mb-2">
+                                                    <i class="bi bi-check text-primary"></i>
+                                                    Community access
+                                                </li>
+                                                <li class="mb-2">
+                                                    <i class="bi bi-check text-primary"></i>
+                                                    Unlimited private projects
+                                                </li>
+                                                <li class="mb-2">
+                                                    <i class="bi bi-check text-primary"></i>
+                                                    Dedicated support
+                                                </li>
+                                                <li class="mb-2">
+                                                    <i class="bi bi-check text-primary"></i>
+                                                    Free linked domain
+                                                </li>
+                                                <li class="text-muted">
+                                                    <i class="bi bi-x"></i>
+                                                    Monthly status reports
+                                                </li>
+                                            </ul>
+                                            <div class="d-grid"><a class="btn btn-primary" href="#!">Choose plan</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
+                    </section>
         </main>
         <!-- Footer-->
         <footer class="bg-dark py-4 mt-auto">
